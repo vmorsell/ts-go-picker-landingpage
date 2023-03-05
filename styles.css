@@ -14,7 +14,7 @@ body {
     background-size: cover;
 }
 
-#ts {
+.ts {
     color: #fff;
     background-color: rgba(49, 120, 198, 0.5);
     flex-basis: 50vh;
@@ -26,13 +26,13 @@ body {
     padding: 0 0 50vh 0;
 }
 
-#ts img {
+.ts img {
     height: 25vh;
     max-width: 30vw;
     margin-right: 40vw;
 }
 
-#go {
+.go {
     color: #fff;
     background-color: rgba(0, 125, 156, 0.5);
     flex-basis: 50vh;
@@ -44,7 +44,7 @@ body {
     padding: 50vh 0 0 0;
 }
 
-#go img {
+.go img {
     height: 25vh;
     max-width: 40vw;
     margin-left: 40vw;
