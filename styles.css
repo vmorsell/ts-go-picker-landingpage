@@ -1,54 +1,51 @@
 body {
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
+    color: #fff;
+    background-color: #000;
+    background-image: url('winter-road.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #ts {
     color: #fff;
-    background-color: #3178c6;
-    flex-grow: 1;
+    background-color: rgba(49, 120, 198, 0.5);
+    flex-basis: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    webkit-clip-path: polygon(0 0, 0 90%, 100% 10%, 100% 0);margin-bottom: -100vh;
-    clip-path: polygon(0 0, 0 90%, 100% 10%, 100% 0);margin-bottom: -100vh;
-    margin-bottom: -50vh;
-    padding-bottom: 50vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 10%, 0% 90%);
+    margin: 0 0 -50vh 0;
+    padding: 0 0 50vh 0;
 }
 
 #ts img {
-    width: 40vw;
-    max-height: 30vh;
+    height: 25vh;
+    max-width: 30vw;
     margin-right: 40vw;
 }
 
 #go {
     color: #fff;
-    background-color: #007d9c;
-    flex-grow: 1;
+    background-color: rgba(0, 125, 156, 0.5);
+    flex-basis: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#go:before {
-    content: ' ';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: inherit;
-    z-index: -1;
-    top: 0;
-    transform-origin: right top;
-    transform: skewY('10deg');
+    clip-path: polygon(0% 90%, 100% 10%, 100% 100%, 0% 100%);
+    margin: -50vh 0 0 0;
+    padding: 50vh 0 0 0;
 }
 
 #go img {
-    width: 60vw;
-    max-height: 30vh;
-    margin-left: 30vw;
+    height: 25vh;
+    max-width: 40vw;
+    margin-left: 40vw;
 }
