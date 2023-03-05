@@ -28,7 +28,7 @@ body {
 
 .ts {
     background-color: rgba(49, 120, 198, 0.6);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 0% 70%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 15%, 0% 85%);
 }
 
 .ts .logo {
@@ -39,7 +39,7 @@ body {
 
 .go {
     background-color: rgba(0, 125, 156, 0.6);
-    clip-path: polygon(0% 70%, 100% 30%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 85%, 100% 15%, 100% 100%, 0% 100%);
 }
 
 .go .logo {
