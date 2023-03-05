@@ -21,5 +21,30 @@
                 <img src="go-logo.svg" class="logo" />
             </div>
         </a>
+
+        <script>
+            const fullsizeClassName = "fullsize";
+            const hiddenClassName = "hidden";
+
+            const go = document.getElementsByClassName("go")[0];
+            const ts = document.getElementsByClassName("ts")[0];
+
+            function animate(fullsize, hide) {
+                fullsize.classList.add(fullsizeClassName);
+                hide.classList.add(hiddenClassName);
+            }
+
+            function resetAnimation() {
+                go.classList.remove(fullsizeClassName);
+                go.classList.remove(hiddenClassName);
+                ts.classList.remove(fullsizeClassName);
+                ts.classList.remove(hiddenClassName);
+            }
+
+            go.addEventListener("click", () => animate(go, ts));
+            ts.addEventListener("click", () => animate(ts, go));
+
+            window.addEventListener("pageshow", resetAnimation);
+        </script>
     </body>
 </html>
