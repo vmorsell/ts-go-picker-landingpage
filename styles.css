@@ -24,11 +24,11 @@ body {
     align-items: center;
     margin: 0;
     padding: 20vh 10vw;
-    transition: all 0.3s cubic-bezier(0.85, 0, 0.15, 1);
+    transition: all 0.45s cubic-bezier(0.85, 0, 0.15, 1);
 }
 
 .logo {
-    transition: all 0.3s cubic-bezier(0.85, 0, 0.15, 1);
+    transition: all 0.6s cubic-bezier(0.85, 0, 0.15, 1);
 }
 
 .ts {
@@ -68,8 +68,8 @@ body {
 }
 
 .fullsize .logo {
-    height: 35vh;
-    max-width: 60vw;
+    height: 50vh;
+    max-width: 70vw;
     margin: 0;
-    transition-delay: 0.15s;
+    transition-delay: 0.1s;
 }
